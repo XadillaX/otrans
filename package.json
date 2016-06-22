@@ -4,11 +4,11 @@
   "description": "Object key transformation for Node.js.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/XadillaX/otransform.git"
+    "url": "git+https://github.com/XadillaX/otrans.git"
   },
   "keywords": [
     "object",
@@ -19,14 +19,15 @@
   "author": "XadillaX <i@2333.moe>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/XadillaX/otransform/issues"
+    "url": "https://github.com/XadillaX/otrans/issues"
   },
-  "homepage": "https://github.com/XadillaX/otransform#readme",
+  "homepage": "https://github.com/XadillaX/otrans#readme",
   "dependencies": {
     "lodash.camelcase": "^4.1.1",
     "lodash.snakecase": "^4.0.1"
   },
   "devDependencies": {
+    "istanbul": "^0.4.4",
     "mocha": "^2.5.3",
     "should": "^9.0.2"
   }
