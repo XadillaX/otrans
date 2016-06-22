@@ -1,11 +1,11 @@
 # Otrans
 
-[![Otrans](http://img.shields.io/npm/v/otrans)](https://www.npmjs.org/package/otrans)
-[![Otrans](http://img.shields.io/npm/dm/otrans)](https://www.npmjs.org/package/otrans)
-[![Build Status](https://travis-ci.org/XadillaX/otrans?branch=master)](https://travis-ci.org/XadillaX/otrans)
-[![Coverage Status](https://img.shields.io/coveralls/XadillaX/otrans/master)](https://coveralls.io/r/XadillaX/otrans?branch=master)
-[![License](https://img.shields.io/npm/l/otrans?style=flat)](https://www.npmjs.org/package/otrans)
-[![Dependency Status](https://david-dm.org/XadillaX/otrans)](https://david-dm.org/XadillaX/otrans)
+[![Otrans](http://img.shields.io/npm/v/otrans.svg)](https://www.npmjs.org/package/otrans)
+[![Otrans](http://img.shields.io/npm/dm/otrans.svg)](https://www.npmjs.org/package/otrans)
+[![Build Status](https://travis-ci.org/XadillaX/otrans.svg?branch=master)](https://travis-ci.org/XadillaX/otrans)
+[![Coverage Status](https://img.shields.io/coveralls/XadillaX/otrans/master.svg)](https://coveralls.io/r/XadillaX/otrans?branch=master)
+[![License](https://img.shields.io/npm/l/otrans.svg?style=flat)](https://www.npmjs.org/package/otrans)
+[![Dependency Status](https://david-dm.org/XadillaX/otrans.svg)](https://david-dm.org/XadillaX/otrans)
 
 Object key transformation for Node.js.
 
