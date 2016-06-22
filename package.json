@@ -1,5 +1,5 @@
 {
-  "name": "otransform",
+  "name": "otrans",
   "version": "1.0.0",
   "description": "Object key transformation for Node.js.",
   "main": "index.js",
