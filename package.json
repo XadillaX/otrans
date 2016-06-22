@@ -1,0 +1,33 @@
+{
+  "name": "otransform",
+  "version": "1.0.0",
+  "description": "Object key transformation for Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XadillaX/otransform.git"
+  },
+  "keywords": [
+    "object",
+    "transform",
+    "underscore",
+    "camelize"
+  ],
+  "author": "XadillaX <i@2333.moe>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XadillaX/otransform/issues"
+  },
+  "homepage": "https://github.com/XadillaX/otransform#readme",
+  "dependencies": {
+    "lodash.camelcase": "^4.1.1",
+    "lodash.snakecase": "^4.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "should": "^9.0.2"
+  }
+}
