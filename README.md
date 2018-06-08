@@ -133,6 +133,22 @@ otrans.toUnderscore({
 // }
 ```
 
+> **Hint**: The second parameter of `toCamel` or `toUnderscore` is a force transformation key map.
+>
+> eg. if you're going to transform object like this:
+>
+> ```js
+> otrans.toUnderscore({ jar2proxy: true, keepRunning: true });
+> ```
+>
+> You'll get `{ "jar_2_proxy": true, "keep_running": true }`. But if you do like this:
+>
+> ```js
+> otrans.toUnderscore({ jar2proxy: true, keepRunning: true }, { jar2proxy: proxy2jar });
+> ```
+>
+> You'll get `{ "proxy2jar": true, "keep_running": true }` then.
+
 ## Contribute
 
 You're welcome to make pull requests!
