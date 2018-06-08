@@ -14,12 +14,12 @@ describe("otrans", function() {
     const obj = require("./object");
 
     it("should transform to underscore", function() {
-        const result = otrans.toUnderscore(obj);
+        const result = otrans.toUnderscore(obj, { jar2proxy: "jar2proxy" });
         result.should.be.eql(require("./underscore"));
     });
 
     it("should transform to camel", function() {
-        const result = otrans.toCamel(obj);
+        const result = otrans.toCamel(obj, { jar2proxy: "jar2proxy" });
         result.should.be.eql(require("./camel"));
     });
 });
